@@ -1,0 +1,9 @@
+label, input {
+  color: black !important;
+}
+
+.back-ground-contact {
+  background-image: url('./../../../assets/contact.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}

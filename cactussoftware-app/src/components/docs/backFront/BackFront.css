@@ -1,0 +1,19 @@
+.img-developer {
+  font-size: 1.30rem;
+}
+
+.bottom-component {
+  height: 80px;
+}
+
+.max-height-component {
+  max-width: 120px
+}
+
+.bottom-transition {
+  transition: all 0.15s ease 0s;
+}
+
+.input-transition {
+  transition: all 0.15s ease 0s;
+}

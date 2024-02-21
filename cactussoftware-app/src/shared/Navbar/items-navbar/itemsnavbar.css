@@ -1,0 +1,11 @@
+.navbar-item-icon {
+  font-size: 1.4rem;
+}
+
+a:hover {
+  color: lightblue !important;
+}
+
+.navbar-item-icon:hover {
+  color: lightblue !important;
+}

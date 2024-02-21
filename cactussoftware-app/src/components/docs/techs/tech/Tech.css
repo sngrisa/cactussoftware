@@ -1,0 +1,14 @@
+.h3-card {
+  color: #252c38;
+  font-weight: 700;
+  font-size: 1.75rem;
+  line-height: 2.25rem;
+  letter-spacing: -0.3px;
+}
+
+.cardDetails-icon {
+  font-size: 6rem !important;
+  display: flex !important;
+  justify-content: center !important;
+  color: cadetblue;
+}

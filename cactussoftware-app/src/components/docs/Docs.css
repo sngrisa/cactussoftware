@@ -1,0 +1,16 @@
+.background-docs {
+  background-image: url("https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1267&amp;q=80");
+}
+
+.height-page {
+  height: 70px;
+}
+
+.min-height {
+  min-height: 75vh;
+}
+
+.card-css {
+  height: 95px;
+  top: -94px;
+}
