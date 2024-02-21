@@ -6,7 +6,7 @@ const Formcontact = () => {
     <>
       <section id="contact" class="relative py-20 md:py-[120px]">
         <div class="absolute top-0 left-0 -z-[1] w-full bg-gray-800 h-full"></div>
-        <div class="absolute top-0 left-0 -z-[1] h-1/2 w-full back-ground-contact bg-black lg:h-[45%] xl:h-1/2"></div>
+        <div class="absolute top-0 left-0 -z-[1] h-1/2 w-full bg-gray-700 bg-black lg:h-[45%] xl:h-1/2"></div>
         <div class="container px-4">
           <div class="flex flex-wrap items-center -mx-4">
             <div class="w-full px-4 lg:w-7/12 xl:w-8/12">
@@ -32,7 +32,7 @@ const Formcontact = () => {
                     <div>
                       <h5 class="mb-[18px] text-lg font-semibold text-white">Nuestra ubicación</h5>
                       <p class="text-base text-body-color dark:text-dark-6">
-                        Ciudad de Santa Fe, Provincia de Santa Fe, República Argentina
+                        Posadas, Provincia de Misiones, República de Argentina
                       </p>
                     </div>
                   </div>
@@ -60,23 +60,23 @@ const Formcontact = () => {
                 </h3>
                 <form>
                   <div class="mb-[22px]">
-                    <label for="fullName" class="block mb-4 text-sm text-body-color dark:text-dark-6">Full Name*</label>
-                    <input type="text" name="fullName" placeholder="Adam Gelius"
+                    <label for="fullName" class="block mb-4 text-sm text-body-color dark:text-dark-6">Nombre:</label>
+                    <input type="text" name="fullName" placeholder="Ingrese su nombre"
                       class="bg-transparent w-full text-body-color dark:text-dark-6 placeholder:text-body-color/60 border-0 border-b border-[#f1f1f1] dark:border-dark-3 pb-3 focus:border-primary focus:outline-none" />
                   </div>
                   <div class="mb-[22px]">
-                    <label for="email" class="block mb-4 text-sm text-body-color dark:text-dark-6">Email*</label>
-                    <input type="email" name="email" placeholder="example@yourmail.com"
+                    <label for="email" class="block mb-4 text-sm text-body-color dark:text-dark-6">Email:</label>
+                    <input type="email" name="email" placeholder="Ingresa tu direccíon de email"
                       class="bg-transparent w-full text-body-color dark:text-dark-6 placeholder:text-body-color/60 border-0 border-b border-[#f1f1f1] dark:border-dark-3 pb-3 focus:border-primary focus:outline-none" />
                   </div>
                   <div class="mb-[22px]">
-                    <label for="phone" class="block mb-4 text-sm text-body-color dark:text-dark-6">Phone*</label>
-                    <input type="text" name="phone" placeholder="+885 1254 5211 552"
+                    <label for="phone" class="block mb-4 text-sm text-body-color dark:text-dark-6">Número de telefono:</label>
+                    <input type="text" name="phone" placeholder="Ingresa tu numero de telefono"
                       class="bg-transparent w-full text-body-color dark:text-dark-6 placeholder:text-body-color/60 border-0 border-b border-[#f1f1f1] dark:border-dark-3 pb-3 focus:border-primary focus:outline-none" />
                   </div>
                   <div class="mb-[30px]">
-                    <label for="message" class="block mb-4 text-sm text-body-color dark:text-dark-6">Message*</label>
-                    <textarea name="message" rows="1" placeholder="type your message here"
+                    <label for="message" class="block mb-4 text-sm text-body-color dark:text-dark-6">Mensaje:</label>
+                    <textarea name="message" rows="1" placeholder="Deja aqui tu mensaje"
                       class="bg-transparent w-full text-body-color dark:text-dark-6 placeholder:text-body-color/60 resize-none border-0 border-b border-[#f1f1f1] dark:border-dark-3 pb-3 focus:border-primary focus:outline-none"></textarea>
                   </div>
                   <div class="mb-0">

@@ -56,7 +56,7 @@ const Faqs = () => {
               </div>
             </div>
           </div>
-          <div className='grid grid-rows-2 grid-cols-2 sm:grid-cols-1 mb-20 mr-12 md:grid-cols-2 text-center lg:grid-rows-2 grid-cols-2'>
+          <div className='grid grid-rows-2 grid-cols-2 sm:grid-cols-1 mb-20 mr-12 md:grid-cols-2 lg:grid-rows-2 grid-cols-2'>
             {
               faqs.map((faq, idx) => {
                 return (<Faq faq={faq} key={idx} />)

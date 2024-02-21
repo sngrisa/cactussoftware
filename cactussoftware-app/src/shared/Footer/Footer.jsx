@@ -14,7 +14,7 @@ let Footer = () => {
             <a href="#" class="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900 dark:text-white">
               <div className='p-3 pb-6 text-5xl text-center text-white'>Dev<span className='text-blue-500 font-extrabold'>Hub</span> </div>
             </a>
-            <span class="block text-sm text-center text-white">© {getYear()} Cactus Software. Todos los derechos reservado.
+            <span class="block text-sm text-center text-white">© {getYear()} Cactus Software. Todos los derechos reservados
             </span>
             <ul class="flex justify-center mt-5 space-x-5">
               <li>

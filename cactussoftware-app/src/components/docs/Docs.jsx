@@ -14,6 +14,7 @@ const Docs = () => {
         desc: "Conceptos del desarrollo de ambas caras de una aplicación web",
         url: "/backfront",
         icon: <LuBringToFront />,
+        colorBtn: "text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-blue-900"
       },
       {
         id: 2,
@@ -21,6 +22,7 @@ const Docs = () => {
         desc: "Pasos para la implementación de un proyecto de desarrollo",
         url: "/steps",
         icon: <IoFootsteps />,
+        colorBtn: "text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-gray-600"
       },
       {
         id: 3,
@@ -28,6 +30,7 @@ const Docs = () => {
         desc: "Conceptos y ejemplos de las herramientas más implementadas al dia de hoy",
         url: "/tech",
         icon: <GiTechnoHeart />,
+        colorBtn: "text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-pink-900"
       }
     ]
   return (

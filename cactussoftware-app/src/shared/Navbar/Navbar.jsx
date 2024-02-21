@@ -4,6 +4,7 @@ import { IoHomeOutline } from "react-icons/io5";
 import { IoMdContact } from "react-icons/io";
 import { MdImportContacts } from "react-icons/md";
 import { MdOutlinePlayCircle } from "react-icons/md";
+import { HiDocumentSearch } from "react-icons/hi";
 
 let Navbar = () => {
 
@@ -29,9 +30,9 @@ let Navbar = () => {
       },
       {
         id: 4,
-        name: "Dashboard",
-        url: "/dashboard",
-        icon: <MdOutlinePlayCircle />,
+        name: "Docs",
+        url: "/docs",
+        icon: <HiDocumentSearch />,
       },
     ];
 
