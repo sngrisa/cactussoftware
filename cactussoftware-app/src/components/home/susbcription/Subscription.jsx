@@ -17,12 +17,12 @@ const Subscription = () => {
         <div className="absolute inset-0 flex flex-col justify-center items-center w-5/6 max-w-lg mx-auto text-center">
           {subscribed ? (
             <h1 className="font-primary text-white text-4xl sm:text-3xl md:text-4xl md:leading-snug">
-              <span className='font-extrabold '>Te has suscripto a </span> <span className='p-1 text-5xl text-center text-white font-bold'>Dev</span><span className='text-5xl font-bold text-center text-blue-500'>Hub</span>
+              <span>Te has suscripto a </span> <span className='p-1 text-5xl text-center text-white font-bold'>Cactus</span><span className='text-5xl font-extrabold text-center text-blue-500'>Soft</span>
             </h1>
           ) : (
             <div className="space-y-8">
               <h1 className="font-primary  text-white text-3xl sm:text-4xl md:text-5xl md:leading-tight">
-                <span>Dev</span><span className='text-blue-500'>Hub</span>
+                <span className='font-bold'>Cactus</span><span className='text-blue-500 font-extrabold'>Soft</span>
                 <h2 className='font-primary font-extrabold text-white text-2xl sm:text-3xl md:text-2xl md:leading-tight'>Notificaciones</h2>
               </h1>
 

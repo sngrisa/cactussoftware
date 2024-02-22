@@ -44,7 +44,7 @@ const Docs = () => {
             <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
               <div className="pr-12">
                 <h1 className="text-white font-semibold text-5xl">
-                  <div className='p-1 text-5xl text-center text-white'>Dev<span className='text-blue-500 font-extrabold'>Hub</span> </div>
+                  <div className='p-1 text-5xl text-center text-white font-bold'>Cactus<span className='text-blue-500 font-extrabold'>Soft</span> </div>
                 </h1>
                 <p className="mt-4 text-lg text-gray-300">
                   Centro de información

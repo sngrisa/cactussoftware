@@ -46,7 +46,7 @@ let Navbar = () => {
           <div class="relative -mx-4 flex items-center justify-between">
             <div class="w-60 max-w-full px-3">
               <a href="index.html" class="navbar-logo block w-full py-5">
-                <div className='p-1 text-4xl text-center text-white'>Dev<span className='text-blue-500 font-extrabold'>Hub</span> </div>
+                <div className='p-1 text-4xl text-center text-white font-bold'> Cactus<span className='text-blue-500 font-extrabold'>Soft</span> </div>
               </a>
             </div>
             <div class="flex w-full items-center justify-between px-4">

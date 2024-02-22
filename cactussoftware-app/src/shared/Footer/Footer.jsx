@@ -12,7 +12,7 @@ let Footer = () => {
         <div class="max-w-screen-xl p-4 py-6 mx-auto lg:py-16 md:p-8 lg:p-10">
           <div class="text-center">
             <a href="#" class="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900 dark:text-white">
-              <div className='p-3 pb-6 text-5xl text-center text-white'>Dev<span className='text-blue-500 font-extrabold'>Hub</span> </div>
+              <div className='p-3 pb-6 text-5xl text-center font-bold text-white'>Cactus<span className='text-blue-500 font-extrabold'>Soft</span> </div>
             </a>
             <span class="block text-sm text-center text-white">© {getYear()} Cactus Software. Todos los derechos reservados
             </span>
