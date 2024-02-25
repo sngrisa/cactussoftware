@@ -1,7 +1,14 @@
 import React from 'react';
 import "./Form-contact.css";
+import PopUpForm from '../pop-up-form/PopUpForm';
 
 const Formcontact = () => {
+
+  let submitForm = (event) => {
+    event.preventDefault();
+    return PopUpForm();
+  }
+
   return (
     <>
       <section id="contact" className="relative py-20 md:py-[120px] mt-10">
@@ -32,7 +39,7 @@ const Formcontact = () => {
                     <div>
                       <h5 className="mb-[18px] text-lg font-semibold text-white">Nuestra ubicación</h5>
                       <p className="text-base text-body-color dark:text-dark-6">
-                        Posadas, Provincia de Misiones, República de Argentina
+                        Ciudad de Posadas, Provincia de Misiones, República de Argentina
                       </p>
                     </div>
                   </div>
@@ -59,7 +66,7 @@ const Formcontact = () => {
                 <h3 className="mb-8 text-2xl font-semibold md:text-[28px] md:leading-[1.42] dark:text-dark">
                   Dejenos un mensaje:
                 </h3>
-                <form>
+                <form id='formContact' className='formContact' onSubmit={submitForm}>
                   <div className="mb-[22px]">
                     <label htmlFor="fullName" className="block mb-4 text-sm text-body-color dark:text-dark-6">Nombre:</label>
                     <input type="text" name="fullName" placeholder="Ingrese su nombre"
@@ -81,7 +88,7 @@ const Formcontact = () => {
                       className="bg-transparent w-full text-body-color dark:text-dark-6 placeholder:text-body-color/60 resize-none border-0 border-b border-[#f1f1f1] dark:border-dark-3 pb-3 focus:border-primary focus:outline-none"></textarea>
                   </div>
                   <div className="mb-0">
-                    <button type="submit"
+                    <button type="submit" onClick={submitForm}
                       className="inline-flex items-center justify-center px-10 py-3 text-base font-medium text-white transition duration-300 ease-in-out rounded-md bg-primary hover:bg-blue-dark">
                       Enviar mensaje
                     </button>
