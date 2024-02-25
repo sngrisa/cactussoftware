@@ -39,17 +39,17 @@ const Faqs = () => {
   return (
     <>
       <section
-        class="relative z-20 overflow-hidden bg-white pb-8 pt-20 lg:pb-[50px] lg:pt-[120px]"
+        className="relative z-20 overflow-hidden bg-white pb-8 pt-20 lg:pb-[50px] lg:pt-[120px]"
       >
-        <div class="container mx-auto">
-          <div class="-mx-4 flex flex-wrap">
-            <div class="w-full px-4">
-              <div class="mx-auto mb-[60px] max-w-[520px] text-center">
-                <span class="mb-2 block text-lg font-semibold text-primary">
+        <div className="container mx-auto">
+          <div className="-mx-4 flex flex-wrap">
+            <div className="w-full px-4">
+              <div className="mx-auto mb-[60px] max-w-[520px] text-center">
+                <span className="mb-2 block text-lg font-semibold text-primary">
                   Preguntas Frecuentes
                 </span>
                 <h2
-                  class="mb-3 text-3xl font-bold leading-[1.2] sm:text-4xl md:text-[40px]"
+                  className="mb-3 text-3xl font-bold leading-[1.2] sm:text-4xl md:text-[40px]"
                 >
                   Preguntas más recurrentes que nos hacen?
                 </h2>
@@ -65,7 +65,7 @@ const Faqs = () => {
           </div>
         </div>
         <div>
-          <span class="absolute left-4 top-4 -z-[1]">
+          <span className="absolute left-4 top-4 -z-[1]">
             <svg
               width="48"
               height="134"
@@ -355,7 +355,7 @@ const Faqs = () => {
               />
             </svg>
           </span>
-          <span class="absolute bottom-4 right-4 -z-[1]">
+          <span className="absolute bottom-4 right-4 -z-[1]">
             <svg
               width="48"
               height="134"

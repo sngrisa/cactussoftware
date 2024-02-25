@@ -1,18 +1,24 @@
 .icon-card-feature {
-    color: darkblue !important;
-    font-size: 2.6rem !important;
+  color: darkblue !important;
+  font-size: 2.6rem !important;
 }
 
 .text-feature {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 .card-feature {
-    cursor: pointer !important;
-    border-radius: 3% !important;
+  cursor: pointer !important;
+  border-radius: 3% !important;
+}
+
+.card-feature:hover {
+  background-color: whitesmoke;
 }
 
 
+
+/*
 .feature-box {
     transition: background-color 0.3s;
     position: relative;
@@ -58,4 +64,4 @@
             border-left-color: lightblue;
         }
     }
-}
+} */

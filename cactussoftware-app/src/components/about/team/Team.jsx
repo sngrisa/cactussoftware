@@ -88,27 +88,27 @@ const Team = () => {
     <>
       <section
         id="team"
-        class="overflow-hidden bg-gray-800 pb-12 pt-20  lg:pb-[90px] lg:pt-[120px]"
+        className="overflow-hidden bg-gray-800 pb-12 pt-20  lg:pb-[90px] lg:pt-[120px]"
       >
-        <div class="container mx-auto">
-          <div class="flex flex-wrap -mx-4">
-            <div class="w-full px-4">
-              <div class="mx-auto mb-[60px] max-w-[485px] text-center">
-                <span class="block mb-2 text-lg font-semibold text-primary">
+        <div className="container mx-auto">
+          <div className="flex flex-wrap -mx-4">
+            <div className="w-full px-4">
+              <div className="mx-auto mb-[60px] max-w-[485px] text-center">
+                <span className="block mb-2 text-lg font-semibold text-primary">
                   Nuestro equipo de trabajo
                 </span>
                 <h2
-                  class="mb-3 text-3xl font-bold leading-[1.2] text-white sm:text-4xl md:text-[40px]"
+                  className="mb-3 text-3xl font-bold leading-[1.2] text-white sm:text-4xl md:text-[40px]"
                 >
                   Acerca del Equipo de Trabajo
                 </h2>
-                <p class="text-base text-body-color dark:text-dark-6">
-                  ¡Bienvenido a nuestro equipo! En DevHub, creemos firmemente en el poder de la colaboración y el trabajo en equipo para alcanzar grandes metas. Aquí en esta página, queremos presentarte a las personas que hacen posible nuestro éxito y compartir un poco sobre quiénes somos.
+                <p className="text-base text-body-color dark:text-dark-6">
+                  ¡Bienvenido a nuestro equipo! En Cactus Software, creemos firmemente en el poder de la colaboración y el trabajo en equipo para alcanzar grandes metas. Aquí en esta página, queremos presentarte a las personas que hacen posible nuestro éxito y compartir un poco sobre quiénes somos.
                 </p>
               </div>
             </div>
           </div>
-          <div class="flex flex-wrap justify-center -mx-4">
+          <div className="flex flex-wrap justify-center -mx-4">
             {
               members.map((member) => {
                 return (<Member member={member} key={member.id} />)

@@ -40,36 +40,36 @@ let Navbar = () => {
   return (
     <>
       <div
-        class="ud-header absolute left-0 top-0 z-40 flex w-full items-center bg-gray-900"
+        className="ud-header absolute left-0 top-0 z-40 flex w-full items-center bg-gray-900"
       >
-        <div class="container">
-          <div class="relative -mx-4 flex items-center justify-between">
-            <div class="w-60 max-w-full px-3">
-              <a href="index.html" class="navbar-logo block w-full py-5">
+        <div className="container">
+          <div className="relative -mx-4 flex items-center justify-between">
+            <div className="w-60 max-w-full px-3">
+              <a href="index.html" className="navbar-logo block w-full py-5">
                 <div className='p-1 text-4xl text-center text-white font-bold'> Cactus<span className='text-blue-500 font-extrabold'>Soft</span> </div>
               </a>
             </div>
-            <div class="flex w-full items-center justify-between px-4">
+            <div className="flex w-full items-center justify-between px-4">
               <div>
                 <button
                   id="navbarToggler"
-                  class="absolute right-4 top-1/2 block -translate-y-1/2 rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden"
+                  className="absolute right-4 top-1/2 block -translate-y-1/2 rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden"
                 >
                   <span
-                    class="relative my-[6px] block h-[2px] w-[30px] bg-white"
+                    className="relative my-[6px] block h-[2px] w-[30px] bg-white"
                   ></span>
                   <span
-                    class="relative my-[6px] block h-[2px] w-[30px] bg-white"
+                    className="relative my-[6px] block h-[2px] w-[30px] bg-white"
                   ></span>
                   <span
-                    class="relative my-[6px] block h-[2px] w-[30px] bg-white"
+                    className="relative my-[6px] block h-[2px] w-[30px] bg-white"
                   ></span>
                 </button>
                 <nav
                   id="navbarCollapse"
-                  class="absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-white py-5 shadow-lg dark:bg-dark-2 lg:static lg:block lg:w-full lg:max-w-full lg:bg-transparent lg:px-4 lg:py-0 lg:shadow-none dark:lg:bg-transparent xl:px-6"
+                  className="absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-white py-5 shadow-lg dark:bg-dark-2 lg:static lg:block lg:w-full lg:max-w-full lg:bg-transparent lg:px-4 lg:py-0 lg:shadow-none dark:lg:bg-transparent xl:px-6"
                 >
-                  <ul class="blcok lg:flex 2xl:ml-20">
+                  <ul className="blcok lg:flex 2xl:ml-20">
                     {
                       itemsNavbar.map((itemNavbar) => {
                         return (<Itemsnavbar itemNavbar={itemNavbar} key={itemNavbar.id} />)
@@ -78,10 +78,10 @@ let Navbar = () => {
                   </ul>
                 </nav>
               </div>
-              <div class="flex items-center justify-end pr-16 lg:pr-0">
+              <div className="flex items-center justify-end pr-16 lg:pr-0">
                 <label
-                  for="themeSwitcher"
-                  class="inline-flex cursor-pointer items-center"
+                  htmlFor="themeSwitcher"
+                  className="inline-flex cursor-pointer items-center"
                   aria-label="themeSwitcher"
                   name="themeSwitcher"
                 >
@@ -89,11 +89,11 @@ let Navbar = () => {
                     type="checkbox"
                     name="themeSwitcher"
                     id="themeSwitcher"
-                    class="sr-only"
+                    className="sr-only"
                   />
-                  <span class="block text-white dark:hidden">
+                  <span className="block text-white dark:hidden">
                     <svg
-                      class="fill-current"
+                      className="fill-current"
                       width="24"
                       height="24"
                       viewBox="0 0 24 24"
@@ -105,16 +105,16 @@ let Navbar = () => {
                       />
                     </svg>
                   </span>
-                  <span class="hidden text-white dark:block">
+                  <span className="hidden text-white dark:block">
                     <svg
-                      class="fill-current"
+                      className="fill-current"
                       width="24"
                       height="24"
                       viewBox="0 0 24 24"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
                     >
-                      <g clip-path="url(#clip0_2172_3070)">
+                      <g clipPath="url(#clip0_2172_3070)">
                         <path
                           d="M12 6.89999C9.18752 6.89999 6.90002 9.18749 6.90002 12C6.90002 14.8125 9.18752 17.1 12 17.1C14.8125 17.1 17.1 14.8125 17.1 12C17.1 9.18749 14.8125 6.89999 12 6.89999ZM12 15.4125C10.125 15.4125 8.58752 13.875 8.58752 12C8.58752 10.125 10.125 8.58749 12 8.58749C13.875 8.58749 15.4125 10.125 15.4125 12C15.4125 13.875 13.875 15.4125 12 15.4125Z"
                         />
@@ -155,7 +155,7 @@ let Navbar = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div >
     </>
   )
 }
