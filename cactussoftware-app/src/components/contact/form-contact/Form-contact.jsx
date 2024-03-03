@@ -52,8 +52,7 @@ const Formcontact = () => {
                     </div>
                     <div>
                       <h5 className="mb-[18px] text-lg font-semibold text-dark dark:text-white">Nuestro correo</h5>
-                      <p className="text-base text-body-color dark:text-dark-6">cactus.studio.ar@gmail.com</p>
-                      <p className="text-base text-body-color dark:text-dark-6">soportecactussoft@gmail.com</p>
+                      <p className="text-base text-body-color dark:text-dark-6">soportecactusar@gmail.com</p>
                     </div>
                   </div>
                 </div>
