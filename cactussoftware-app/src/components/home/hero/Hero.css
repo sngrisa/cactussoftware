@@ -8,6 +8,11 @@
   height: 40px;
 }
 
+.text-hero {
+  color: black;
+}
+
+
 .content__container__list {
   list-style: none;
 

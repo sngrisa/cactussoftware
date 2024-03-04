@@ -49,7 +49,7 @@ const Faqs = () => {
                   Preguntas Frecuentes
                 </span>
                 <h2
-                  className="mb-3 text-3xl font-bold leading-[1.2] sm:text-4xl md:text-[40px]"
+                  className="mb-3 text-3xl font-bold leading-[1.2] sm:text-4xl md:text-[40px] text-hero"
                 >
                   Preguntas más recurrentes que nos hacen?
                 </h2>

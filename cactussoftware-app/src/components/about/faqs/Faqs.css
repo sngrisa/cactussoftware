@@ -1,3 +1,7 @@
 .text-base {
-    font-weight: 400 !important;
+  font-weight: 400 !important;
+}
+
+.text-hero {
+  color: black;
 }

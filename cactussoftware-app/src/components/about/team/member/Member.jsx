@@ -6,7 +6,7 @@ import { SiGmail } from "react-icons/si";
 const Member = ({ member }) => {
   return (
     <>
-      <div className="w-full px-4 sm:w-1/2 lg:w-1/4 xl:w-1/4 card-member">
+      <div className="w-full px-4 sm:w-1/2 lg:w-1/4 xl:w-1/4 card-member text-hero">
         <div
           className="px-5 pt-12 pb-10 mb-8 group rounded-xl shadow-testimonial bg-white dark:shadow-none"
         >

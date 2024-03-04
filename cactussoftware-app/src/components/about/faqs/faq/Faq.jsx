@@ -12,11 +12,11 @@ const Faq = ({ faq }) => {
         </div>
         <div className="w-full">
           <h3
-            className="mb-6 text-xl font-semibold sm:text-2xl lg:text-xl xl:text-2xl"
+            className="mb-6 text-xl font-semibold sm:text-2xl lg:text-xl xl:text-2xl text-hero"
           >
             {faq.title}
           </h3>
-          <p className="text-base">
+          <p className="text-base text-hero">
             {faq.desc}
           </p>
         </div>

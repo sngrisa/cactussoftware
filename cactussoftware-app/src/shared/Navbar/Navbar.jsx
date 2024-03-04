@@ -50,21 +50,33 @@ let Navbar = () => {
               </a>
             </div>
             <div className="flex w-full items-center justify-between px-4">
-              <div>
-                <button
-                  id="navbarToggler"
-                  className="absolute right-4 top-1/2 block -translate-y-1/2 rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden"
-                >
-                  <span
-                    className="relative my-[6px] block h-[2px] w-[30px] bg-white"
-                  ></span>
-                  <span
-                    className="relative my-[6px] block h-[2px] w-[30px] bg-white"
-                  ></span>
-                  <span
-                    className="relative my-[6px] block h-[2px] w-[30px] bg-white"
-                  ></span>
-                </button>
+              <div className="drawer drawer-end">
+                <div>
+                  <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
+                  <div className="drawer-content">
+                    <label htmlFor="my-drawer-4" className="drawer-button btn btn-blue absolute right-4 top-1/2 block -translate-y-1/2 rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden">
+                      <span
+                        className="relative my-[6px] block h-[2px] w-[30px] bg-white"
+                      ></span>
+                      <span
+                        className="relative my-[6px] block h-[2px] w-[30px] bg-white"
+                      ></span>
+                      <span
+                        className="relative my-[6px] block h-[2px] w-[30px] bg-white"
+                      ></span>
+                    </label>
+                  </div>
+                  <div className="drawer-side">
+                    <label htmlFor="my-drawer-4" aria-label="close sidebar" className="drawer-overlay"></label>
+                    <ul className="menu p-4 min-h-full w-100 bg-gray-900 text-base-content blcok2xl:ml-20">
+                      {
+                        itemsNavbar.map((itemNavbar) => {
+                          return (<Itemsnavbar itemNavbar={itemNavbar} key={itemNavbar.id} />)
+                        })
+                      }
+                    </ul>
+                  </div>
+                </div>
                 <nav
                   id="navbarCollapse"
                   className="absolute right-4 top-full hidden w-full max-w-[250px] rounded-lg bg-white py-5 shadow-lg dark:bg-dark-2 lg:static lg:block lg:w-full lg:max-w-full lg:bg-transparent lg:px-4 lg:py-0 lg:shadow-none dark:lg:bg-transparent xl:px-6"
@@ -78,7 +90,8 @@ let Navbar = () => {
                   </ul>
                 </nav>
               </div>
-              <div className="flex items-center justify-end pr-16 lg:pr-0">
+
+              {/*   <div className="flex items-center justify-end pr-16 lg:pr-0">
                 <label
                   htmlFor="themeSwitcher"
                   className="inline-flex cursor-pointer items-center"
@@ -151,7 +164,7 @@ let Navbar = () => {
                     </svg>
                   </span>
                 </label>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

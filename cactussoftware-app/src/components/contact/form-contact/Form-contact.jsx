@@ -12,8 +12,8 @@ const Formcontact = () => {
   return (
     <>
       <section id="contact" className="relative py-20 md:py-[120px] mt-10">
-        <div className="absolute top-0 left-0 -z-[1] w-full bg-gray-800 h-full"></div>
-        <div className="absolute top-0 left-0 -z-[1] h-1/2 w-full bg-gray-700 bg-black lg:h-[45%] xl:h-1/2"></div>
+        <div className="absolute top-0 left-0 -z-[1] w-full h-full bg-gray-800"></div>
+        <div className="absolute top-0 left-0 -z-[1] h-1/2 w-full lg:h-[45%] xl:h-1/2 bg-gray-700"></div>
         <div className="container px-4">
           <div className="flex flex-wrap items-center -mx-4">
             <div className="w-full px-4 lg:w-7/12 xl:w-8/12">

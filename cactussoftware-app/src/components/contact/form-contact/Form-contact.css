@@ -2,8 +2,10 @@ label, input {
   color: black !important;
 }
 
+
+
 .back-ground-contact {
-  background-image: url('./../../../assets/contact.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url('./../../../assets/contact.jpg') !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
 }
