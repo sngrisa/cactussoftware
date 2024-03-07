@@ -3,8 +3,8 @@ import Itemsnavbar from "./items-navbar/Itemsnavbar";
 import { IoHomeOutline } from "react-icons/io5";
 import { IoMdContact } from "react-icons/io";
 import { MdImportContacts } from "react-icons/md";
-import { MdOutlinePlayCircle } from "react-icons/md";
 import { HiDocumentSearch } from "react-icons/hi";
+import { GrProjects } from "react-icons/gr";
 
 let Navbar = () => {
 
@@ -34,6 +34,12 @@ let Navbar = () => {
         url: "/docs",
         icon: <HiDocumentSearch />,
       },
+      {
+        id: 4,
+        name: "Proyectos",
+        url: "/projects",
+        icon: <GrProjects />
+      }
     ];
 
 
